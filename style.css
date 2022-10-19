@@ -31,14 +31,14 @@ body {
     box-shadow: 2px 5px 20px var(--blacked);
     max-width: 1000px;
     height: 600px;
-    background-image: url(/images/bg-pattern-desktop.svg);
+    background-image: url(./images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: -610px 72%;
 }
 
 .faq-box::after {
     content: "";
-    background: url(/images/illustration-box-desktop.svg);
+    background: url(./images/illustration-box-desktop.svg);
     display: inline-block;
     position: relative;
     width: 190px;
@@ -132,7 +132,7 @@ body {
 
 .accordion-button::after,
 .accordion-button:not(.collapsed)::after {
-    background-image: url(/images/icon-arrow-down.svg);
+    background-image: url(./images/icon-arrow-down.svg);
     background-size: auto;
     background-position: center;
 }
@@ -222,7 +222,7 @@ body {
 
         .faq__left__image::after {
             content: "";
-            background: url(/images/bg-pattern-mobile.png);
+            background: url(./images/bg-pattern-mobile.png);
             position: absolute;
             height: 150px;
             width: 100%;
