@@ -152,7 +152,6 @@ body {
     padding-left: 0;
 }
 
-/* === LG ==== */
 @media screen and (max-width: 1200px) {
     .faq-box {
         width: 900px;
@@ -182,7 +181,6 @@ body {
     }
 
 
-    /* === SM ==== */
     @media screen and (max-width: 767px) {
         .faq-box {
             width: 450px;
